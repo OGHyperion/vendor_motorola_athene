@@ -676,3 +676,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     QPerformance \
     UxPerformance
+    
+PRODUCT_COPY_FILES += \
+    vendor/motorola/athene/proprietary/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/QtiTelephonyServicelibrary.jar
